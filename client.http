@@ -11,11 +11,18 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3000/bye
+GET http://localhost:3000/bye
 
 ###
 GET http://localhost:3000/
 
 ###
 POST http://localhost:3000/register
+Content-Type: application/json
 
+{
+      "username": "Nursabrena",
+      "password": "12346",
+      "name": "nursabrena",
+      "email": "nrsbrnaaaa11@utem.edu.my"
+}
