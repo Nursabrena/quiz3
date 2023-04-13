@@ -6,12 +6,15 @@ Content-Type: application/json
 
 {
     "username": "sab",
-    "password":"password"
+    "password":"12346",
+    "name" : "nursabrena",
+    "email" : "nrsbrnaaaa11@utem.edu.my"
 }
 
 ###
 
 GET http://localhost:3000/bye
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhYiIsInBhc3N3b3JkIjoiMTIzNDYiLCJuYW1lIjoibnVyc2FicmVuYSIsImVtYWlsIjoibnJzYnJuYWFhYTExQHV0ZW0uZWR1Lm15IiwiaWF0IjoxNjgxMzcwOTk2fQ.CjvBTgqvfNi_G9e6rYYa_Iy0hqwENBF6VTIhJg0SZBA
 
 ###
 GET http://localhost:3000/
